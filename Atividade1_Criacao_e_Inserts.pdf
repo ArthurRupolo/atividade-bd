@@ -1,0 +1,1124 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 5704 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0 0 0 rg BT /F2 14 Tf 70.1 737.0 Td (Centro Universitário SENAI - UniSENAI Campus Florianópolis) Tj ET
+0 0 0 rg BT /F1 11 Tf 151.6 715.0 Td (Curso de Ciência de Dados e Inteligência Artificial) Tj ET
+0 0 0 rg BT /F2 10 Tf 55.0 688.0 Td (Unidade Curricular:) Tj ET
+0 0 0 rg BT /F1 10 Tf 165.4 688.0 Td (Banco de dados I) Tj ET
+0 0 0 rg BT /F2 10 Tf 55.0 673.0 Td (Professor:) Tj ET
+0 0 0 rg BT /F1 10 Tf 115.0 673.0 Td (Gustavo Stangherlin Cantarelli) Tj ET
+0 0 0 rg BT /F2 10 Tf 55.0 658.0 Td (Ano/Semestre:) Tj ET
+0 0 0 rg BT /F1 10 Tf 131.8 658.0 Td (2026/2) Tj ET
+0 0 0 rg BT /F2 10 Tf 55.0 637.0 Td (Nome:) Tj ET
+0 0 0 rg BT /F1 10 Tf 87.0 637.0 Td (Arthur Rupolo da Costa) Tj ET
+0 0 0 rg BT /F2 10 Tf 55.0 622.0 Td (Atividade:) Tj ET
+0 0 0 rg BT /F1 10 Tf 115.0 622.0 Td (Atividade Individual 1 - Implementação do banco BD_TV_FILMES \(PostgreSQL\)) Tj ET
+0 0 0 rg BT /F2 12 Tf 70.0 597.0 Td (1. Criação do banco de dados e das tabelas) Tj ET
+0.95 0.95 0.95 rg 55.0 574.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 577.0 Td (CREATE DATABASE bd_tv_filmes;) Tj ET
+0.95 0.95 0.95 rg 55.0 562.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 565.5 Td (\\c bd_tv_filmes) Tj ET
+0.95 0.95 0.95 rg 55.0 545.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 548.0 Td (CREATE TABLE tipo \() Tj ET
+0.95 0.95 0.95 rg 55.0 533.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 536.5 Td (    id_tipo INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 522.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 525.0 Td (    nome VARCHAR\(50\)) Tj ET
+0.95 0.95 0.95 rg 55.0 510.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 513.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 493.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 496.0 Td (CREATE TABLE pais \() Tj ET
+0.95 0.95 0.95 rg 55.0 481.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 484.5 Td (    id_pais INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 470.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 473.0 Td (    nome VARCHAR\(60\)) Tj ET
+0.95 0.95 0.95 rg 55.0 458.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 461.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 441.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 444.0 Td (CREATE TABLE genero \() Tj ET
+0.95 0.95 0.95 rg 55.0 429.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 432.5 Td (    id_genero INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 418.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 421.0 Td (    nome VARCHAR\(50\)) Tj ET
+0.95 0.95 0.95 rg 55.0 406.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 409.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 389.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 392.0 Td (CREATE TABLE plataforma \() Tj ET
+0.95 0.95 0.95 rg 55.0 377.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 380.5 Td (    id_plataforma INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 366.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 369.0 Td (    nome VARCHAR\(60\)) Tj ET
+0.95 0.95 0.95 rg 55.0 354.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 357.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 337.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 340.0 Td (CREATE TABLE contatos \() Tj ET
+0.95 0.95 0.95 rg 55.0 325.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 328.5 Td (    id_contato INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 314.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 317.0 Td (    nome VARCHAR\(100\),) Tj ET
+0.95 0.95 0.95 rg 55.0 302.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 305.5 Td (    email VARCHAR\(120\),) Tj ET
+0.95 0.95 0.95 rg 55.0 291.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 294.0 Td (    senha VARCHAR\(64\)) Tj ET
+0.95 0.95 0.95 rg 55.0 279.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 282.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 262.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 265.0 Td (CREATE TABLE ator \() Tj ET
+0.95 0.95 0.95 rg 55.0 250.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 253.5 Td (    id_ator INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 239.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 242.0 Td (    nome VARCHAR\(100\),) Tj ET
+0.95 0.95 0.95 rg 55.0 227.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 230.5 Td (    id_pais INTEGER REFERENCES pais \(id_pais\)) Tj ET
+0.95 0.95 0.95 rg 55.0 216.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 219.0 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 198.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 201.5 Td (CREATE TABLE programatv \() Tj ET
+0.95 0.95 0.95 rg 55.0 187.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 190.0 Td (    id_programa INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 175.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 178.5 Td (    titulo VARCHAR\(150\),) Tj ET
+0.95 0.95 0.95 rg 55.0 164.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 167.0 Td (    ano INTEGER,) Tj ET
+0.95 0.95 0.95 rg 55.0 152.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 155.5 Td (    id_tipo INTEGER REFERENCES tipo \(id_tipo\)) Tj ET
+0.95 0.95 0.95 rg 55.0 141.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 144.0 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 123.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 126.5 Td (CREATE TABLE prog_informacoes \() Tj ET
+0.95 0.95 0.95 rg 55.0 112.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 115.0 Td (    id_prog_inf INTEGER PRIMARY KEY,) Tj ET
+0.95 0.95 0.95 rg 55.0 100.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 103.5 Td (    titulo_original VARCHAR\(150\),) Tj ET
+0.95 0.95 0.95 rg 55.0 89.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 92.0 Td (    sinopse TEXT,) Tj ET
+0.95 0.95 0.95 rg 55.0 77.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 80.5 Td (    id_programa INTEGER UNIQUE REFERENCES programatv \(id_programa\),) Tj ET
+0.95 0.95 0.95 rg 55.0 66.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 69.0 Td (    id_pais INTEGER REFERENCES pais \(id_pais\)) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (1) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 7 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+9 0 obj
+<< /Length 6133 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 721.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 724.5 Td (CREATE TABLE avaliacao \() Tj ET
+0.95 0.95 0.95 rg 55.0 710.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 713.0 Td (    id_contato INTEGER REFERENCES contatos \(id_contato\),) Tj ET
+0.95 0.95 0.95 rg 55.0 698.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 701.5 Td (    id_programa INTEGER REFERENCES programatv \(id_programa\),) Tj ET
+0.95 0.95 0.95 rg 55.0 687.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 690.0 Td (    nota NUMERIC\(3,1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 675.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 678.5 Td (    PRIMARY KEY \(id_contato, id_programa\)) Tj ET
+0.95 0.95 0.95 rg 55.0 664.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 667.0 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 646.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 649.5 Td (CREATE TABLE pro_elenco \() Tj ET
+0.95 0.95 0.95 rg 55.0 635.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 638.0 Td (    id_programa INTEGER REFERENCES programatv \(id_programa\),) Tj ET
+0.95 0.95 0.95 rg 55.0 623.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 626.5 Td (    id_ator INTEGER REFERENCES ator \(id_ator\),) Tj ET
+0.95 0.95 0.95 rg 55.0 612.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 615.0 Td (    chk_ator BOOLEAN,) Tj ET
+0.95 0.95 0.95 rg 55.0 600.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 603.5 Td (    chk_diretor BOOLEAN,) Tj ET
+0.95 0.95 0.95 rg 55.0 589.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 592.0 Td (    PRIMARY KEY \(id_programa, id_ator\)) Tj ET
+0.95 0.95 0.95 rg 55.0 577.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 580.5 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 560.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 563.0 Td (CREATE TABLE prog_genero \() Tj ET
+0.95 0.95 0.95 rg 55.0 548.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 551.5 Td (    id_programa INTEGER REFERENCES programatv \(id_programa\),) Tj ET
+0.95 0.95 0.95 rg 55.0 537.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 540.0 Td (    id_genero INTEGER REFERENCES genero \(id_genero\),) Tj ET
+0.95 0.95 0.95 rg 55.0 525.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 528.5 Td (    PRIMARY KEY \(id_programa, id_genero\)) Tj ET
+0.95 0.95 0.95 rg 55.0 514.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 517.0 Td (\);) Tj ET
+0.95 0.95 0.95 rg 55.0 496.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 499.5 Td (CREATE TABLE disponibilidade \() Tj ET
+0.95 0.95 0.95 rg 55.0 485.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 488.0 Td (    id_programa INTEGER REFERENCES programatv \(id_programa\),) Tj ET
+0.95 0.95 0.95 rg 55.0 473.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 476.5 Td (    id_plataforma INTEGER REFERENCES plataforma \(id_plataforma\),) Tj ET
+0.95 0.95 0.95 rg 55.0 462.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 465.0 Td (    PRIMARY KEY \(id_programa, id_plataforma\)) Tj ET
+0.95 0.95 0.95 rg 55.0 450.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 453.5 Td (\);) Tj ET
+0 0 0 rg BT /F2 12 Tf 70.0 426.0 Td (2. Tabelas e seus inserts) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 396.0 Td (2.1 Tabela: tipo \(15 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 374.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 377.0 Td (INSERT INTO tipo \(id_tipo, nome\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 362.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 365.5 Td (    \(1, 'Filme'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 351.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 354.0 Td (    \(2, 'Série'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 339.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 342.5 Td (    \(3, 'Minissérie'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 328.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 331.0 Td (    \(4, 'Documentário'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 316.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 319.5 Td (    \(5, 'Animação'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 305.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 308.0 Td (    \(6, 'Reality Show'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 293.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 296.5 Td (    \(7, 'Novela'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 282.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 285.0 Td (    \(8, 'Anime'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 270.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 273.5 Td (    \(9, 'Especial'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 259.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 262.0 Td (    \(10, 'Curta-metragem'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 247.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 250.5 Td (    \(11, 'Talk Show'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 236.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 239.0 Td (    \(12, 'Programa de Auditório'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 224.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 227.5 Td (    \(13, 'Telejornal'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 213.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 216.0 Td (    \(14, 'Esporte'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 201.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 204.5 Td (    \(15, 'Stand-up'\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 177.0 Td (2.2 Tabela: pais \(16 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 155.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 158.0 Td (INSERT INTO pais \(id_pais, nome\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 143.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 146.5 Td (    \(1, 'Brasil'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 132.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 135.0 Td (    \(2, 'Estados Unidos'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 120.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 123.5 Td (    \(3, 'Reino Unido'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 109.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 112.0 Td (    \(4, 'Coreia do Sul'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 97.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 100.5 Td (    \(5, 'Espanha'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 86.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 89.0 Td (    \(6, 'Japão'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 74.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 77.5 Td (    \(7, 'França'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 63.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 66.0 Td (    \(8, 'Alemanha'\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (2) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 9 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+11 0 obj
+<< /Length 6514 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(9, 'Itália'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 727.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 730.5 Td (    \(10, 'Canadá'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 716.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 719.0 Td (    \(11, 'Argentina'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 704.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 707.5 Td (    \(12, 'México'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 693.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 696.0 Td (    \(13, 'Austrália'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 681.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 684.5 Td (    \(14, 'Índia'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 670.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 673.0 Td (    \(15, 'Dinamarca'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 658.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 661.5 Td (    \(16, 'Suécia'\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 634.0 Td (2.3 Tabela: genero \(15 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 612.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 615.0 Td (INSERT INTO genero \(id_genero, nome\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 600.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 603.5 Td (    \(1, 'Drama'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 589.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 592.0 Td (    \(2, 'Comédia'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 577.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 580.5 Td (    \(3, 'Ação'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 566.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 569.0 Td (    \(4, 'Ficção Científica'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 554.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 557.5 Td (    \(5, 'Terror'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 543.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 546.0 Td (    \(6, 'Romance'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 531.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 534.5 Td (    \(7, 'Suspense'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 520.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 523.0 Td (    \(8, 'Aventura'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 508.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 511.5 Td (    \(9, 'Fantasia'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 497.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 500.0 Td (    \(10, 'Crime'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 485.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 488.5 Td (    \(11, 'Documentário'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 474.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 477.0 Td (    \(12, 'Animação'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 462.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 465.5 Td (    \(13, 'Musical'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 451.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 454.0 Td (    \(14, 'Guerra'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 439.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 442.5 Td (    \(15, 'Biografia'\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 415.0 Td (2.4 Tabela: plataforma \(15 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 393.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 396.0 Td (INSERT INTO plataforma \(id_plataforma, nome\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 381.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 384.5 Td (    \(1, 'Netflix'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 370.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 373.0 Td (    \(2, 'Amazon Prime Video'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 358.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 361.5 Td (    \(3, 'Disney+'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 347.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 350.0 Td (    \(4, 'Max'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 335.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 338.5 Td (    \(5, 'Apple TV+'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 324.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 327.0 Td (    \(6, 'Globoplay'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 312.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 315.5 Td (    \(7, 'Paramount+'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 301.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 304.0 Td (    \(8, 'Crunchyroll'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 289.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 292.5 Td (    \(9, 'YouTube'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 278.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 281.0 Td (    \(10, 'Telecine'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 266.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 269.5 Td (    \(11, 'MUBI'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 255.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 258.0 Td (    \(12, 'Pluto TV'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 243.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 246.5 Td (    \(13, 'Claro tv+'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 232.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 235.0 Td (    \(14, 'Looke'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 220.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 223.5 Td (    \(15, 'Belas Artes à La Carte'\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 196.0 Td (2.5 Tabela: contatos \(15 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 174.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 177.0 Td (INSERT INTO contatos \(id_contato, nome, email, senha\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 162.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 165.5 Td (    \(1, 'Ana Souza', 'ana.souza@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 151.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 154.0 Td (    'f5cf299fd63e1433e95b69e5b5b4adef57b17cfd93a01f65c146a5e2cb3e684f'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 139.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 142.5 Td (    \(2, 'Bruno Lima', 'bruno.lima@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 128.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 131.0 Td (    '6bd7b855e21c17b0dd2dfb2ce910d50e98974579fcc226960648936af1a1c3e3'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 116.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 119.5 Td (    \(3, 'Carla Mendes', 'carla.mendes@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 105.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 108.0 Td (    '3cd578a569e8f99f2a5a1a1748b5e6aaaf3611704c74fc23037abace49ec251e'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 93.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 96.5 Td (    \(4, 'Diego Ferreira', 'diego.ferreira@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 82.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 85.0 Td (    '3448cd976cfa929214bbcf938385fd91199798fdec4a9b0a294a8d24b5630678'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 70.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 73.5 Td (    \(5, 'Eduarda Alves', 'eduarda.alves@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 59.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 62.0 Td (    '1e1e1754242df3011a6982f0293b6bb5b99d4e697bff50f4a6e2f7185683b37e'\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (3) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 11 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+13 0 obj
+<< /Length 7705 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(6, 'Felipe Rocha', 'felipe.rocha@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 727.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 730.5 Td (    'fbe2fc6f8a3a92e1d42718465ce85a9359978a39357c175b8887a64e0c5ae8b7'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 716.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 719.0 Td (    \(7, 'Gabriela Martins', 'gabriela.martins@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 704.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 707.5 Td (    'ead777cb8732af9a338957ba81626b39ba4dcbf5c20dc8514c5c164979576fbe'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 693.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 696.0 Td (    \(8, 'Henrique Costa', 'henrique.costa@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 681.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 684.5 Td (    'e479a94e630e2e8ad58e32af339a4ffe05ed86717c65b2c81e71027dfee38db9'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 670.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 673.0 Td (    \(9, 'Isabela Nunes', 'isabela.nunes@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 658.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 661.5 Td (    '53fb7756f8db4434a43ea53a02b5ae3d99862625db58a511f8891c92c49e90e7'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 647.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 650.0 Td (    \(10, 'João Pereira', 'joao.pereira@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 635.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 638.5 Td (    '5f06d8d88269474fd5e8f4caa4b5f236e04673dd61db67cabcafc0a9f0a414fc'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 624.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 627.0 Td (    \(11, 'Karina Duarte', 'karina.duarte@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 612.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 615.5 Td (    '59bc66852ab33d2f9b6940a6ac6e9a602846fdc59d3fbc340457e1ecd8252604'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 601.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 604.0 Td (    \(12, 'Lucas Barbosa', 'lucas.barbosa@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 589.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 592.5 Td (    '3f31fa8751a93fff727e1240429a058e22846aaf32c146812d34841c23846612'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 578.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 581.0 Td (    \(13, 'Mariana Teixeira', 'mariana.teixeira@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 566.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 569.5 Td (    'a14ea3ce2ea56535c4d7370c7519fa699a23ff62356a7c8730d3d9e6660d7487'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 555.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 558.0 Td (    \(14, 'Nicolas Ribeiro', 'nicolas.ribeiro@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 543.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 546.5 Td (    '47ab767799d7a3be1307b9c5024c06c05ee386f8a02f103e48bb24a50b806b21'\),) Tj ET
+0.95 0.95 0.95 rg 55.0 532.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 535.0 Td (    \(15, 'Olívia Cardoso', 'olivia.cardoso@example.com',) Tj ET
+0.95 0.95 0.95 rg 55.0 520.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 523.5 Td (    '4bd5d5b4dc72f0566c03a4766a8524d5b763e612aa7ae68dd985a1163c00ebb3'\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 496.0 Td (2.6 Tabela: ator \(41 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 474.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 477.0 Td (INSERT INTO ator \(id_ator, nome, id_pais\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 462.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 465.5 Td (    \(1, 'Millie Bobby Brown', 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 451.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 454.0 Td (    \(2, 'Bryan Cranston', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 439.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 442.5 Td (    \(3, 'Song Kang-ho', 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 428.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 431.0 Td (    \(4, 'Úrsula Corberó', 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 416.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 419.5 Td (    \(5, 'Alexandre Rodrigues', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 405.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 408.0 Td (    \(6, 'Louis Hofmann', 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 393.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 396.5 Td (    \(7, 'Olivia Colman', 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 382.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 385.0 Td (    \(8, 'Lee Jung-jae', 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 370.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 373.5 Td (    \(9, 'Matthew McConaughey', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 359.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 362.0 Td (    \(10, 'Tom Hanks', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 347.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 350.5 Td (    \(11, 'Jared Harris', 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 336.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 339.0 Td (    \(12, 'Débora Falabella', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 324.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 327.5 Td (    \(13, 'Matheus Nachtergaele', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 313.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 316.0 Td (    \(14, 'Fernando Meirelles', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 301.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 304.5 Td (    \(15, 'Bong Joon-ho', 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 290.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 293.0 Td (    \(16, 'Winona Ryder', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 278.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 281.5 Td (    \(17, 'David Harbour', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 267.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 270.0 Td (    \(18, 'Finn Wolfhard', 10\),) Tj ET
+0.95 0.95 0.95 rg 55.0 255.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 258.5 Td (    \(19, 'Aaron Paul', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 244.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 247.0 Td (    \(20, 'Anna Gunn', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 232.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 235.5 Td (    \(21, 'Choi Woo-shik', 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 221.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 224.0 Td (    \(22, 'Álvaro Morte', 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 209.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 212.5 Td (    \(23, 'Pedro Alonso', 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 198.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 201.0 Td (    \(24, 'Seu Jorge', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 186.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 189.5 Td (    \(25, 'Lisa Vicari', 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 175.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 178.0 Td (    \(26, 'Baran bo Odar', 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 163.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 166.5 Td (    \(27, 'Claire Foy', 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 152.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 155.0 Td (    \(28, 'Hwang Dong-hyuk', 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 140.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 143.5 Td (    \(29, 'Anne Hathaway', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 129.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 132.0 Td (    \(30, 'Christopher Nolan', 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 117.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 120.5 Td (    \(31, 'Tim Allen', 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 106.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 109.0 Td (    \(32, 'Stellan Skarsgård', 16\),) Tj ET
+0.95 0.95 0.95 rg 55.0 94.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 97.5 Td (    \(33, 'Murilo Benício', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 83.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 86.0 Td (    \(34, 'Selton Mello', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 71.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 74.5 Td (    \(35, 'Guel Arraes', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 60.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 63.0 Td (    \(36, 'David Attenborough', 3\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (4) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 13 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+15 0 obj
+<< /Length 8032 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(37, 'Mamoru Miyano', 6\);) Tj ET
+0.95 0.95 0.95 rg 55.0 721.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 724.5 Td (INSERT INTO ator \(id_ator, nome, id_pais\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 710.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 713.0 Td (    \(38, 'João Miguel', 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 698.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 701.5 Td (    \(39, 'Maximiliano Ghione', 11\),) Tj ET
+0.95 0.95 0.95 rg 55.0 687.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 690.0 Td (    \(40, 'Demián Rugna', 11\),) Tj ET
+0.95 0.95 0.95 rg 55.0 675.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 678.5 Td (    \(41, 'Julianne Moore', 2\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 651.0 Td (2.7 Tabela: programatv \(18 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 629.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 632.0 Td (INSERT INTO programatv \(id_programa, titulo, ano, id_tipo\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 617.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 620.5 Td (    \(1, 'Stranger Things', 2016, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 606.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 609.0 Td (    \(2, 'Breaking Bad', 2008, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 594.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 597.5 Td (    \(3, 'Parasita', 2019, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 583.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 586.0 Td (    \(4, 'La Casa de Papel', 2017, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 571.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 574.5 Td (    \(5, 'Cidade de Deus', 2002, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 560.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 563.0 Td (    \(6, 'Dark', 2017, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 548.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 551.5 Td (    \(7, 'The Crown', 2016, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 537.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 540.0 Td (    \(8, 'Round 6', 2021, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 525.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 528.5 Td (    \(9, 'Interestelar', 2014, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 514.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 517.0 Td (    \(10, 'Planeta Terra II', 2016, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 502.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 505.5 Td (    \(11, 'Death Note', 2006, 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 491.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 494.0 Td (    \(12, 'Toy Story', 1995, 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 479.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 482.5 Td (    \(13, 'Chernobyl', 2019, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 468.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 471.0 Td (    \(14, 'Avenida Brasil', 2012, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 456.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 459.5 Td (    \(15, 'O Auto da Compadecida', 1999, 3\);) Tj ET
+0.95 0.95 0.95 rg 55.0 439.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 442.0 Td (INSERT INTO programatv \(id_programa, titulo, ano, id_tipo\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 427.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 430.5 Td (    \(16, 'Ensaio sobre a Cegueira', 2008, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 416.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 419.0 Td (    \(17, '3%', 2016, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 404.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 407.5 Td (    \(18, 'Aterrados', 2017, 1\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 380.0 Td (2.8 Tabela: prog_informacoes \(18 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 358.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 361.0 Td (INSERT INTO prog_informacoes \(id_prog_inf, titulo_original, sinopse, id_programa, id_pais\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 346.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 349.5 Td (    \(1, 'Stranger Things', 'Em Hawkins, em 1983, um menino desaparece e um grupo de amigos) Tj ET
+0.95 0.95 0.95 rg 55.0 335.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 338.0 Td (    encontra uma garota com poderes psíquicos ligada a um mundo sombrio.', 1, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 323.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 326.5 Td (    \(2, 'Breaking Bad', 'Um professor de química com câncer passa a fabricar metanfetamina para) Tj ET
+0.95 0.95 0.95 rg 55.0 312.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 315.0 Td (    garantir o futuro financeiro da família.', 2, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 300.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 303.5 Td (    \(3, 'Gisaengchung', 'A família pobre Ki-taek se infiltra aos poucos na casa de uma família) Tj ET
+0.95 0.95 0.95 rg 55.0 289.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 292.0 Td (    rica, e o plano termina em um confronto inesperado.', 3, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 277.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 280.5 Td (    \(4, 'La Casa de Papel', 'Um grupo liderado pelo Professor executa um assalto à Casa da Moeda) Tj ET
+0.95 0.95 0.95 rg 55.0 266.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 269.0 Td (    da Espanha com reféns e planejamento detalhado.', 4, 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 254.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 257.5 Td (    \(5, 'Cidade de Deus', 'A história de Buscapé e do crescimento do crime organizado em uma) Tj ET
+0.95 0.95 0.95 rg 55.0 243.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 246.0 Td (    favela do Rio de Janeiro entre as décadas de 1960 e 1980.', 5, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 231.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 234.5 Td (    \(6, 'Dark', 'O desaparecimento de crianças em uma cidade alemã revela viagens no tempo e) Tj ET
+0.95 0.95 0.95 rg 55.0 220.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 223.0 Td (    segredos de quatro famílias.', 6, 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 208.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 211.5 Td (    \(7, 'The Crown', 'Acompanha o reinado da rainha Elizabeth II e os acontecimentos políticos e) Tj ET
+0.95 0.95 0.95 rg 55.0 197.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 200.0 Td (    pessoais que marcaram a monarquia britânica.', 7, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 185.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 188.5 Td (    \(8, 'Ojingeo Geim', 'Centenas de pessoas endividadas disputam jogos infantis mortais por um) Tj ET
+0.95 0.95 0.95 rg 55.0 174.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 177.0 Td (    prêmio bilionário.', 8, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 162.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 165.5 Td (    \(9, 'Interstellar', 'Um ex-piloto lidera uma missão através de um buraco de minhoca para) Tj ET
+0.95 0.95 0.95 rg 55.0 151.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 154.0 Td (    encontrar um novo planeta habitável para a humanidade.', 9, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 139.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 142.5 Td (    \(10, 'Planet Earth II', 'Documentário narrado por David Attenborough sobre a vida selvagem em) Tj ET
+0.95 0.95 0.95 rg 55.0 128.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 131.0 Td (    ilhas, montanhas, selvas, desertos, pradarias e cidades.', 10, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 116.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 119.5 Td (    \(11, 'Desu Noto', 'O estudante Light Yagami encontra um caderno capaz de matar qualquer pessoa) Tj ET
+0.95 0.95 0.95 rg 55.0 105.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 108.0 Td (    cujo nome seja escrito nele.', 11, 6\),) Tj ET
+0.95 0.95 0.95 rg 55.0 93.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 96.5 Td (    \(12, 'Toy Story', 'O boneco de cowboy Woody vê sua posição ameaçada pela chegada do astronauta) Tj ET
+0.95 0.95 0.95 rg 55.0 82.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 85.0 Td (    Buzz Lightyear no quarto de Andy.', 12, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 70.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 73.5 Td (    \(13, 'Chernobyl', 'Recria o desastre nuclear de 1986 na Ucrânia soviética e o esforço para) Tj ET
+0.95 0.95 0.95 rg 55.0 59.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 62.0 Td (    conter suas consequências.', 13, 2\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (5) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 15 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+17 0 obj
+<< /Length 6872 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(14, 'Avenida Brasil', 'Rita volta ao Rio de Janeiro com o nome de Nina para se vingar de) Tj ET
+0.95 0.95 0.95 rg 55.0 727.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 730.5 Td (    Carminha, que a abandonou em um lixão na infância.', 14, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 716.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 719.0 Td (    \(15, 'O Auto da Compadecida', 'Os nordestinos João Grilo e Chicó usam a esperteza para) Tj ET
+0.95 0.95 0.95 rg 55.0 704.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 707.5 Td (    sobreviver no sertão e acabam diante do julgamento final.', 15, 1\);) Tj ET
+0.95 0.95 0.95 rg 55.0 687.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 690.0 Td (INSERT INTO prog_informacoes \(id_prog_inf, titulo_original, sinopse, id_programa, id_pais\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 675.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 678.5 Td (    \(16, 'Blindness', 'Uma epidemia de cegueira branca atinge uma cidade e os infectados são) Tj ET
+0.95 0.95 0.95 rg 55.0 664.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 667.0 Td (    colocados em quarentena, onde a ordem social se desfaz.', 16, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 652.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 655.5 Td (    \(17, '3%', 'Em um Brasil distópico, jovens de 20 anos passam por um processo seletivo em que) Tj ET
+0.95 0.95 0.95 rg 55.0 641.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 644.0 Td (    apenas 3% chegam ao lado próspero da sociedade.', 17, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 629.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 632.5 Td (    \(18, 'Aterrados', 'Moradores de um bairro de Buenos Aires são assombrados por fenômenos) Tj ET
+0.95 0.95 0.95 rg 55.0 618.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 621.0 Td (    sobrenaturais, e um grupo de investigadores tenta entendê-los.', 18, 11\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 593.5 Td (2.9 Tabela: avaliacao \(46 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 571.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 574.5 Td (INSERT INTO avaliacao \(id_contato, id_programa, nota\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 560.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 563.0 Td (    \(1, 1, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 548.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 551.5 Td (    \(1, 6, 10.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 537.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 540.0 Td (    \(1, 10, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 525.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 528.5 Td (    \(2, 2, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 514.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 517.0 Td (    \(2, 7, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 502.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 505.5 Td (    \(2, 11, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 491.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 494.0 Td (    \(3, 3, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 479.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 482.5 Td (    \(3, 8, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 468.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 471.0 Td (    \(3, 12, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 456.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 459.5 Td (    \(4, 4, 6.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 445.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 448.0 Td (    \(4, 9, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 433.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 436.5 Td (    \(4, 13, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 422.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 425.0 Td (    \(5, 5, 7.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 410.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 413.5 Td (    \(5, 10, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 399.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 402.0 Td (    \(5, 14, 7.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 387.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 390.5 Td (    \(6, 6, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 376.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 379.0 Td (    \(6, 11, 7.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 364.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 367.5 Td (    \(6, 15, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 353.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 356.0 Td (    \(7, 7, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 341.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 344.5 Td (    \(7, 12, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 330.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 333.0 Td (    \(7, 1, 9.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 318.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 321.5 Td (    \(8, 8, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 307.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 310.0 Td (    \(8, 13, 7.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 295.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 298.5 Td (    \(8, 2, 7.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 284.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 287.0 Td (    \(9, 9, 7.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 272.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 275.5 Td (    \(9, 14, 10.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 261.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 264.0 Td (    \(9, 3, 9.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 249.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 252.5 Td (    \(10, 10, 6.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 238.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 241.0 Td (    \(10, 15, 9.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 226.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 229.5 Td (    \(10, 4, 10.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 215.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 218.0 Td (    \(11, 11, 10.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 203.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 206.5 Td (    \(11, 1, 6.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 192.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 195.0 Td (    \(12, 12, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 180.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 183.5 Td (    \(12, 2, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 169.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 172.0 Td (    \(13, 13, 10.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 157.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 160.5 Td (    \(13, 3, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 146.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 149.0 Td (    \(14, 14, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 134.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 137.5 Td (    \(14, 4, 8.0\),) Tj ET
+0.95 0.95 0.95 rg 55.0 123.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 126.0 Td (    \(15, 15, 9.5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 111.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 114.5 Td (    \(15, 5, 9.5\);) Tj ET
+0.95 0.95 0.95 rg 55.0 94.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 97.0 Td (INSERT INTO avaliacao \(id_contato, id_programa, nota\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 82.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 85.5 Td (    \(1, 16, 8.0\), \(6, 16, 6.5\), \(2, 17, 8.5\), \(4, 17, 9.0\), \(3, 18, 7.5\), \(5, 18, 8.0\);) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (6) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 17 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+19 0 obj
+<< /Length 6593 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 732.0 Td (2.10 Tabela: pro_elenco \(44 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 710.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 713.0 Td (INSERT INTO pro_elenco \(id_programa, id_ator, chk_ator, chk_diretor\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 698.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 701.5 Td (    \(1, 1, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 687.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 690.0 Td (    \(1, 16, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 675.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 678.5 Td (    \(1, 17, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 664.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 667.0 Td (    \(1, 18, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 652.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 655.5 Td (    \(2, 2, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 641.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 644.0 Td (    \(2, 19, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 629.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 632.5 Td (    \(2, 20, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 618.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 621.0 Td (    \(3, 3, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 606.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 609.5 Td (    \(3, 15, FALSE, TRUE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 595.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 598.0 Td (    \(3, 21, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 583.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 586.5 Td (    \(4, 4, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 572.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 575.0 Td (    \(4, 22, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 560.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 563.5 Td (    \(4, 23, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 549.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 552.0 Td (    \(5, 5, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 537.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 540.5 Td (    \(5, 14, FALSE, TRUE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 526.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 529.0 Td (    \(5, 13, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 514.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 517.5 Td (    \(5, 24, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 503.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 506.0 Td (    \(6, 6, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 491.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 494.5 Td (    \(6, 25, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 480.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 483.0 Td (    \(6, 26, FALSE, TRUE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 468.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 471.5 Td (    \(7, 7, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 457.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 460.0 Td (    \(7, 11, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 445.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 448.5 Td (    \(7, 27, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 434.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 437.0 Td (    \(8, 8, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 422.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 425.5 Td (    \(8, 28, FALSE, TRUE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 411.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 414.0 Td (    \(9, 9, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 399.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 402.5 Td (    \(9, 29, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 388.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 391.0 Td (    \(9, 30, FALSE, TRUE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 376.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 379.5 Td (    \(10, 36, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 365.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 368.0 Td (    \(11, 37, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 353.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 356.5 Td (    \(12, 10, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 342.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 345.0 Td (    \(12, 31, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 330.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 333.5 Td (    \(13, 11, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 319.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 322.0 Td (    \(13, 32, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 307.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 310.5 Td (    \(14, 12, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 296.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 299.0 Td (    \(14, 33, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 284.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 287.5 Td (    \(15, 13, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 273.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 276.0 Td (    \(15, 34, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 261.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 264.5 Td (    \(15, 35, FALSE, TRUE\);) Tj ET
+0.95 0.95 0.95 rg 55.0 244.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 247.0 Td (INSERT INTO pro_elenco \(id_programa, id_ator, chk_ator, chk_diretor\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 232.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 235.5 Td (    \(16, 14, FALSE, TRUE\), \(16, 41, TRUE, FALSE\), \(17, 38, TRUE, FALSE\),) Tj ET
+0.95 0.95 0.95 rg 55.0 221.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 224.0 Td (    \(18, 39, TRUE, FALSE\), \(18, 40, FALSE, TRUE\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 196.5 Td (2.11 Tabela: prog_genero \(45 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 174.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 177.5 Td (INSERT INTO prog_genero \(id_programa, id_genero\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 163.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 166.0 Td (    \(1, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 151.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 154.5 Td (    \(1, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 140.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 143.0 Td (    \(1, 5\),) Tj ET
+0.95 0.95 0.95 rg 55.0 128.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 131.5 Td (    \(2, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 117.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 120.0 Td (    \(2, 10\),) Tj ET
+0.95 0.95 0.95 rg 55.0 105.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 108.5 Td (    \(2, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 94.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 97.0 Td (    \(3, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 82.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 85.5 Td (    \(3, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 71.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 74.0 Td (    \(3, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 59.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 62.5 Td (    \(4, 10\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (7) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 19 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+21 0 obj
+<< /Length 6071 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(4, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 727.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 730.5 Td (    \(4, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 716.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 719.0 Td (    \(5, 10\),) Tj ET
+0.95 0.95 0.95 rg 55.0 704.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 707.5 Td (    \(5, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 693.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 696.0 Td (    \(6, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 681.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 684.5 Td (    \(6, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 670.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 673.0 Td (    \(6, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 658.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 661.5 Td (    \(7, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 647.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 650.0 Td (    \(7, 15\),) Tj ET
+0.95 0.95 0.95 rg 55.0 635.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 638.5 Td (    \(8, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 624.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 627.0 Td (    \(8, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 612.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 615.5 Td (    \(8, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 601.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 604.0 Td (    \(9, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 589.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 592.5 Td (    \(9, 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 578.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 581.0 Td (    \(9, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 566.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 569.5 Td (    \(10, 11\),) Tj ET
+0.95 0.95 0.95 rg 55.0 555.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 558.0 Td (    \(11, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 543.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 546.5 Td (    \(11, 12\),) Tj ET
+0.95 0.95 0.95 rg 55.0 532.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 535.0 Td (    \(11, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 520.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 523.5 Td (    \(12, 12\),) Tj ET
+0.95 0.95 0.95 rg 55.0 509.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 512.0 Td (    \(12, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 497.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 500.5 Td (    \(12, 8\),) Tj ET
+0.95 0.95 0.95 rg 55.0 486.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 489.0 Td (    \(13, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 474.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 477.5 Td (    \(13, 15\),) Tj ET
+0.95 0.95 0.95 rg 55.0 463.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 466.0 Td (    \(13, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 451.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 454.5 Td (    \(14, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 440.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 443.0 Td (    \(14, 6\),) Tj ET
+0.95 0.95 0.95 rg 55.0 428.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 431.5 Td (    \(15, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 417.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 420.0 Td (    \(15, 8\);) Tj ET
+0.95 0.95 0.95 rg 55.0 399.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 402.5 Td (INSERT INTO prog_genero \(id_programa, id_genero\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 388.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 391.0 Td (    \(16, 1\), \(16, 7\), \(17, 4\), \(17, 1\), \(17, 7\), \(18, 5\);) Tj ET
+0 0 0 rg BT /F2 11 Tf 85.0 363.5 Td (2.12 Tabela: disponibilidade \(38 registros\)) Tj ET
+0.95 0.95 0.95 rg 55.0 341.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 344.5 Td (INSERT INTO disponibilidade \(id_programa, id_plataforma\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 330.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 333.0 Td (    \(1, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 318.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 321.5 Td (    \(1, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 307.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 310.0 Td (    \(2, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 295.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 298.5 Td (    \(2, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 284.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 287.0 Td (    \(3, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 272.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 275.5 Td (    \(3, 11\),) Tj ET
+0.95 0.95 0.95 rg 55.0 261.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 264.0 Td (    \(3, 14\),) Tj ET
+0.95 0.95 0.95 rg 55.0 249.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 252.5 Td (    \(4, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 238.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 241.0 Td (    \(4, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 226.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 229.5 Td (    \(5, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 215.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 218.0 Td (    \(5, 10\),) Tj ET
+0.95 0.95 0.95 rg 55.0 203.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 206.5 Td (    \(5, 6\),) Tj ET
+0.95 0.95 0.95 rg 55.0 192.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 195.0 Td (    \(6, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 180.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 183.5 Td (    \(7, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 169.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 172.0 Td (    \(7, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 157.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 160.5 Td (    \(8, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 146.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 149.0 Td (    \(9, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 134.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 137.5 Td (    \(9, 7\),) Tj ET
+0.95 0.95 0.95 rg 55.0 123.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 126.0 Td (    \(9, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 111.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 114.5 Td (    \(10, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 100.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 103.0 Td (    \(10, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 88.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 91.5 Td (    \(10, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 77.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 80.0 Td (    \(11, 1\),) Tj ET
+0.95 0.95 0.95 rg 55.0 65.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 68.5 Td (    \(11, 8\),) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (8) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 21 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+23 0 obj
+<< /Length 6247 >>
+stream
+0 0.29 0.6 rg BT /F4 24 Tf 440.0 790.0 Td (UniSENAi) Tj ET
+0.95 0.95 0.95 rg 55.0 739.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 742.0 Td (    \(12, 3\),) Tj ET
+0.95 0.95 0.95 rg 55.0 727.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 730.5 Td (    \(12, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 716.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 719.0 Td (    \(12, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 704.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 707.5 Td (    \(13, 4\),) Tj ET
+0.95 0.95 0.95 rg 55.0 693.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 696.0 Td (    \(13, 2\),) Tj ET
+0.95 0.95 0.95 rg 55.0 681.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 684.5 Td (    \(14, 6\),) Tj ET
+0.95 0.95 0.95 rg 55.0 670.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 673.0 Td (    \(14, 9\),) Tj ET
+0.95 0.95 0.95 rg 55.0 658.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 661.5 Td (    \(14, 12\),) Tj ET
+0.95 0.95 0.95 rg 55.0 647.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 650.0 Td (    \(15, 6\),) Tj ET
+0.95 0.95 0.95 rg 55.0 635.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 638.5 Td (    \(15, 14\),) Tj ET
+0.95 0.95 0.95 rg 55.0 624.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 627.0 Td (    \(15, 10\);) Tj ET
+0.95 0.95 0.95 rg 55.0 606.5 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 609.5 Td (INSERT INTO disponibilidade \(id_programa, id_plataforma\) VALUES) Tj ET
+0.95 0.95 0.95 rg 55.0 595.0 485.0 11.5 re f
+0 0 0 rg BT /F3 8 Tf 58.0 598.0 Td (    \(16, 10\), \(17, 1\), \(18, 11\);) Tj ET
+0 0 0 rg BT /F2 12 Tf 55.0 570.5 Td (APÊNDICES) Tj ET
+0 0 0 rg BT /F2 11 Tf 55.0 540.5 Td (APÊNDICE A - Quantidade de registros por tabela) Tj ET
+0 0.29 0.6 rg 55.0 507.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 507.5 122.1 18.0 re S
+1 1 1 rg BT /F2 8.5 Tf 59.0 514.5 Td (tabela) Tj ET
+0 0.29 0.6 rg 177.1 507.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 507.5 76.0 18.0 re S
+1 1 1 rg BT /F2 8.5 Tf 181.1 514.5 Td (registros) Tj ET
+0 0.29 0.6 rg 253.1 507.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 507.5 89.2 18.0 re S
+1 1 1 rg BT /F2 8.5 Tf 257.1 514.5 Td (tipo) Tj ET
+0 0 0 RG 0.5 w 55.0 489.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 496.5 Td (tipo) Tj ET
+0 0 0 RG 0.5 w 177.1 489.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 496.5 Td (15) Tj ET
+0 0 0 RG 0.5 w 253.1 489.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 496.5 Td (Comum) Tj ET
+0.82 0.9 1.0 rg 55.0 471.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 471.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 478.5 Td (pais) Tj ET
+0.82 0.9 1.0 rg 177.1 471.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 471.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 478.5 Td (16) Tj ET
+0.82 0.9 1.0 rg 253.1 471.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 471.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 478.5 Td (Comum) Tj ET
+0 0 0 RG 0.5 w 55.0 453.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 460.5 Td (genero) Tj ET
+0 0 0 RG 0.5 w 177.1 453.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 460.5 Td (15) Tj ET
+0 0 0 RG 0.5 w 253.1 453.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 460.5 Td (Comum) Tj ET
+0.82 0.9 1.0 rg 55.0 435.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 435.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 442.5 Td (plataforma) Tj ET
+0.82 0.9 1.0 rg 177.1 435.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 435.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 442.5 Td (15) Tj ET
+0.82 0.9 1.0 rg 253.1 435.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 435.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 442.5 Td (Comum) Tj ET
+0 0 0 RG 0.5 w 55.0 417.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 424.5 Td (contatos) Tj ET
+0 0 0 RG 0.5 w 177.1 417.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 424.5 Td (15) Tj ET
+0 0 0 RG 0.5 w 253.1 417.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 424.5 Td (Comum) Tj ET
+0.82 0.9 1.0 rg 55.0 399.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 399.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 406.5 Td (ator) Tj ET
+0.82 0.9 1.0 rg 177.1 399.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 399.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 406.5 Td (41) Tj ET
+0.82 0.9 1.0 rg 253.1 399.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 399.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 406.5 Td (Comum) Tj ET
+0 0 0 RG 0.5 w 55.0 381.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 388.5 Td (programatv) Tj ET
+0 0 0 RG 0.5 w 177.1 381.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 388.5 Td (18) Tj ET
+0 0 0 RG 0.5 w 253.1 381.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 388.5 Td (Comum) Tj ET
+0.82 0.9 1.0 rg 55.0 363.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 363.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 370.5 Td (prog_informacoes) Tj ET
+0.82 0.9 1.0 rg 177.1 363.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 363.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 370.5 Td (18) Tj ET
+0.82 0.9 1.0 rg 253.1 363.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 363.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 370.5 Td (Comum) Tj ET
+0 0 0 RG 0.5 w 55.0 345.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 352.5 Td (avaliacao) Tj ET
+0 0 0 RG 0.5 w 177.1 345.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 352.5 Td (46) Tj ET
+0 0 0 RG 0.5 w 253.1 345.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 352.5 Td (Associativa) Tj ET
+0.82 0.9 1.0 rg 55.0 327.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 327.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 334.5 Td (pro_elenco) Tj ET
+0.82 0.9 1.0 rg 177.1 327.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 327.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 334.5 Td (44) Tj ET
+0.82 0.9 1.0 rg 253.1 327.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 327.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 334.5 Td (Associativa) Tj ET
+0 0 0 RG 0.5 w 55.0 309.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 316.5 Td (prog_genero) Tj ET
+0 0 0 RG 0.5 w 177.1 309.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 316.5 Td (45) Tj ET
+0 0 0 RG 0.5 w 253.1 309.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 316.5 Td (Associativa) Tj ET
+0.82 0.9 1.0 rg 55.0 291.5 122.1 18.0 re f
+0 0 0 RG 0.5 w 55.0 291.5 122.1 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 59.0 298.5 Td (disponibilidade) Tj ET
+0.82 0.9 1.0 rg 177.1 291.5 76.0 18.0 re f
+0 0 0 RG 0.5 w 177.1 291.5 76.0 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 181.1 298.5 Td (38) Tj ET
+0.82 0.9 1.0 rg 253.1 291.5 89.2 18.0 re f
+0 0 0 RG 0.5 w 253.1 291.5 89.2 18.0 re S
+0 0 0 rg BT /F1 8.5 Tf 257.1 298.5 Td (Associativa) Tj ET
+0 g BT /F1 10 Tf 534 30 Td (9) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 23 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000171 00000 n 
+0000000268 00000 n 
+0000000370 00000 n 
+0000000465 00000 n 
+0000000574 00000 n 
+0000006330 00000 n 
+0000006486 00000 n 
+0000012671 00000 n 
+0000012828 00000 n 
+0000019395 00000 n 
+0000019553 00000 n 
+0000027311 00000 n 
+0000027469 00000 n 
+0000035554 00000 n 
+0000035712 00000 n 
+0000042637 00000 n 
+0000042795 00000 n 
+0000049441 00000 n 
+0000049599 00000 n 
+0000055723 00000 n 
+0000055881 00000 n 
+0000062181 00000 n 
+trailer
+<< /Size 25 /Root 1 0 R >>
+startxref
+62339
+%%EOF
